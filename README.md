@@ -15,11 +15,21 @@ It allows you to "freeze" your screen, select a region with a smooth animated ov
 6.  `libnotify`
 
 ## 🚀 Installation
-1.  **Clone the repository:**
+1. **Install Dependencies**
+# Install system tools
+```bash
+sudo pacman -S grim imagemagick tesseract tesseract-data-eng wl-clipboard libnotify
+```
+
+# Install Quickshell (from AUR)
+```bash        
+yay -S quickshell-git
+```
+
+2.  **Clone the repository:**
     ```bash
    mkdir -p ~/.config/quickshell
 git clone https://github.com/Ronin-CK/HyprQuickOcr.git ~/.config/quickshell/HyprQuickOcr
-
     ```
 
 
