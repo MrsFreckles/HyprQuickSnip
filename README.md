@@ -29,12 +29,11 @@ https://github.com/user-attachments/assets/aafa197b-111f-4b40-aab4-90a7b66a1ef1
 
 ## 🚀 Installation
 1. **Install Dependencies**
-# Install system tools
 ```bash
 sudo pacman -S grim imagemagick tesseract tesseract-data-eng wl-clipboard curl jq libnotify xdg-utils
 ```
 
-# Install Quickshell (from AUR)
+**Install Quickshell (from AUR)**
 ```bash        
 yay -S quickshell-git
 ```
